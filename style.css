@@ -1,6 +1,5 @@
 .style1
 {
-background-color : black;
 color : red;
 font-weight:bold;
 font-family: monospace;
@@ -16,4 +15,22 @@ background-color: black;
 background-color: red;
 color: black;
 font-size: xx-large;
+}
+
+.header {
+height: 300px;
+margin: 0;
+background : url('bandeau\ acceuil.jpg') repeat-x;
+}
+
+.header1  
+{
+height: 150px;
+margin: 0;
+background : red; 
+}
+
+.tabperso
+{
+color: violet;
 }
