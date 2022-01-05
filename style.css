@@ -3,10 +3,17 @@
 background-color : black;
 color : red;
 font-weight:bold;
-font-family: Blippo, fantasy;
+font-family: Rockwell;
 }
 
 .styleback
 {
 background-color: black;
+}
+
+.tableau
+{
+background-color: red;
+color: black;
+font-size: xx-large;
 }
