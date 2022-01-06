@@ -33,4 +33,21 @@ background : red;
 .tabperso
 {
 color: violet;
+background-color: whitesmoke;
+}
+
+.contab
+{
+    color: black;
+    border-left: 0cm;
+    border-top: 0cm;
+    border-bottom: 0cm;
+    border-right: 0cm;
+}
+
+.tabrien{
+    border-left: 0cm;
+    border-top: 0cm;
+    border-bottom: 0cm;
+    border-right: 0cm;
 }
