@@ -83,3 +83,23 @@ nav a:hover{
     line-height: 42px;
     letter-spacing: 6px;
 }
+
+.styleh2{
+    color: white;
+    font-family: "Oswald", Sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: 6px;
+    background-color: #222222;
+}
+
+.styleh1{
+    color: #222222;
+    font-family: "Oswald", Sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: 6px;
+    background-color:white ;
+}
