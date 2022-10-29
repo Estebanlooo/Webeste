@@ -57,7 +57,7 @@ nav a:hover{
     letter-spacing: 6px;
 }
 
-table{
+.table1{
     width : 500px;
     height: 500px;
     color: black;
@@ -66,4 +66,20 @@ table{
 .img1 {
     width: 100%;
     height: auto;
+}
+
+.table2{
+    background-color: #222222;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+
+.styleTab2{
+    color: white;
+    font-family: "Oswald", Sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 42px;
+    letter-spacing: 6px;
 }
