@@ -7,30 +7,26 @@ font-family: monospace;
 
 .styleback
 {
-background-color: blue;
-color:white;
+background-color: white;
+color:blue;
 font-weight:bold;
 font-family: monospace;
 }
 
 .tableau
 {
-background-color: red;
-color: black;
+background-color: blue;
+color: white;
 font-size: xx-large;
 }
 
-.header {
-height: 300px;
-margin: 0;
-background : url('bandeau\ acceuil.jpg') repeat-x;
-}
+
 
 .header1  
 {
-height: 150px;
+height: 100px;
 margin: 0;
-background : red; 
+background : blue; 
 }
 
 .tabperso
