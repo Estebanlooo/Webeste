@@ -1,0 +1,23 @@
+<?php
+    session_start();
+    require("BD.cls");
+    require("message.cls");
+    $dbh = Database::connect();
+
+    $last = $_SESSION["last"];
+
+    $query = "SELECT * FROM Messages WHERE id > $last ORDER BY id";
+    $sth = $dbh->prepare($query);
+    $sth->setFetchMode(PDO::FETCH_CLASS,"Message");
+    $sth->execute(array());
+    if ($sth->rowCount()>0){// il y a des nouveaux messages
+        while ($nouveau = $sth->fetch()){
+            $nouveau->affiche();
+            $id = $nouveau->id;
+        }
+        $_SESSION["last"]=$id;
+    }
+    
+    $dbh = null; // Déconnexion de MySQL
+
+?>
