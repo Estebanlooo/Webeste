@@ -1,0 +1,53 @@
+.style1
+{
+color : red;
+font-weight:bold;
+font-family: monospace;
+}
+
+.styleback
+{
+background-color: black;
+color:blue;
+font-weight:bold;
+font-family: monospace;
+}
+
+.tableau
+{
+background-color: blue;
+color: white;
+font-size: xx-large;
+}
+
+
+
+.header1  
+{
+height: 10%;
+margin: 0;
+font-size: x-large;
+background : red; 
+}
+
+.tabperso
+{
+color: violet;
+background-color: whitesmoke;
+}
+
+.contab
+{
+    color: black;
+    border-left: 0cm;
+    border-top: 0cm;
+    border-bottom: 0cm;
+    border-right: 0cm;
+}
+
+.tabrien{
+    border-left: 0cm;
+    border-top: 0cm;
+    border-bottom: 0cm;
+    border-right: 0cm;
+}

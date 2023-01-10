@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <META HTTP-EQUIV="Content-Type" CONTENT="text/html; CHARSET=utf-8" />
+        <script type="text/javascript" src="test.js"></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="shortcut icon" type="image/png" href="ST.png"/>
+        <title>Stranger Things</title>
+    </head>
+    <body class="styleback">
+        <h1 class="header"></h1>
+        <h1 class="header1">
+            <table  CELLPADDING=56>
+                <tr>
+                    <td><A HREF="index.html">Acceuil</A></td>
+                    <td><A HREF="Présentation.html">Présentation</A></td>
+                    <td><A HREF="résumé.html">Résumé</A></td>
+                    <td><A HREF="personnage.html">Personnage</A></td>
+                    <td><A HREF="info.html">Info</A></td>
+                    <td><A HREF="test.html">Test</A></td>
+            </tr>
+            </table>
+        </h1>
+        <center><IMG SRC="Test.png">
+        <h2>Quelle est le nom de la serie?</h2>
+        <input id="val1" type="text">
+        <button onclick="test1()">Verifier</button>
+        <div></div>
+
+        <br><hr><br>
+
+        <h2>Comment s'appelle t'il</h2>
+        <img src="dustin.jpg"><br><br>
+        <input type=radio id=1.1 name=choix value=Choix 1>
+        <label>Dustin</label>
+        <input type=radio id=1.2 name=choix value=Choix 2>
+        <label>Will</label>
+        <input type=radio id=1.3 name=choix value=Choix 3>
+        <label>Jean</label>
+        <input type=radio id=1.4 name=choix value=Choix 4>
+        <label>Michel</label>
+        <button onclick="dustin()">Verifier</button><br>
+        <div1></div1>
+        
+        <br><hr><br>
+		  
+		<h2>sur quel plateforme est disponible Stranger Things ?</h2>
+        <input type=radio id=2.1 name=choix value=Choix 1>
+		<label>canal32</label>
+        <input type=radio id=2.2 name=choix value=Choix 2>
+        <label>Amazon prime</label>
+        <input type=radio id=2.3 name=choix value=Choix 3>
+        <label>TF1</label>
+        <input type=radio id=2.4 name=choix value=Choix 4>
+        <label>Netflix</label>
+        <button onclick="Platform()">Verifier</button><br>
+        <div2></div2>
+		
+		<br><hr><br>
+
+		<h2>Qui est ce personnage ?</h2>
+		<img src="demogorgon.jpg" style="width:500px;height:281px;">
+		<br><br>
+		<input type=radio id=3.1 name=choix value=Choix 1>
+		<label>M. ROCQUET</label>
+        <input type=radio id=3.2 name=choix value=Choix 2>
+        <label>Demogorgon</label>
+        <input type=radio id=3.3 name=choix value=Choix 3>
+        <label>Will</label>
+        <input type=radio id=3.4 name=choix value=Choix 4>
+        <label>M. PETIT</label>
+        <button onclick="demogorgon()">Verifier</button><br>
+        <div3></div3>
+
+        <br><hr><br>
+
+        <h2>Qui a des pouvoirs ?</h2>
+        <br><br>
+        <input type="radio" id=4.1 name="choix">Onze
+        <input type="radio" id=4.2 name="choix">Will
+        <input type="radio" id=4.3 name="choix">Hopper
+        <input type="radio" id=4.4 name="choix">Dustin
+        <button onclick="pouvoir()">Verifier</button><br>
+        <div4></div4>
+
+        <br><hr><br>
+
+        <h2>Qui est ce personnage ?</h2>
+        <img src="Onze2.jpg" style="width:500px;height:281px;">
+        <br><br>
+        <input type="radio" id=5.1 name="choix">Hooper
+        <input type="radio" id=5.2 name="choix">Onze
+        <input type="radio" id=5.3 name="choix">Dustin
+        <input type="radio" id=5.4 name="choix">Will
+        <button onclick="perso()">Verifier</button><br>
+        <div5></div5>
+
+        <br><hr><br>
+
+        <h2>Combien y a t'il d'épisode au total ?</h2>
+        <input id="val2" type="text">
+        <button onclick="episode()">Verifier</button><br>
+        <div6></div6>
+
+        <br><hr><br>
+
+        <h2>Combien y a t'il de saison au total ?</h2>
+        <input id="val3" type="text">
+        <button onclick="saison()">Verifier</button><br>
+        <div7></div7>
+
+        <br><hr><br>
+
+        <h2>Quand va sortir la derniere saison ?</h2>
+        <input type="radio" id=9.1 name="choix">2020
+        <input type="radio" id=9.2 name="choix">2021
+        <input type="radio" id=9.3 name="choix">2022
+        <input type="radio" id=9.4 name="choix">2023
+        <button onclick="année()">Verifier</button><br>
+        <div8></div8>
+
+        <br><hr><br>
+
+        <h2>Dans quelle ville se situe l'histoire ?</h2>
+        <input type="radio" id=10.1 name="choix">Mesnil-Sellieres
+        <input type="radio" id=10.2 name="choix">Troyes
+        <input type="radio" id=10.3 name="choix">Los Angeles
+        <input type="radio" id=10.4 name="choix">Hawkins
+        <button onclick="Ville()">Verifier</button><br>
+        <div9></div9>
+
+        <br><hr><br>
+
+        <p>Pour afficher la notes, appuyer sur le button Resultat</p>
+        <button onclick="revelation()">Resultat</button>
+        <p>Votre note final est de : <br><div10></div10>/10</p>
+        <div11></div11>
+        </center>
+
+    </body>
+</html>
